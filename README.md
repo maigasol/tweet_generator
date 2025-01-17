@@ -13,8 +13,7 @@ An AI-powered tool that generates highly personalized and contextually relevant 
    - [4. Advisor Module](#4-advisor-module)
    - [5. Final Inference](#5-final-inference)
 3. [Key Features](#key-features)
-4. [Tutorial: How to Extract Tweets Using Tweepy](#tutorial-how-to-extract-tweets-using-tweepy)
-5. [References](#references)
+4. [References](#references)
 
 ---
 
@@ -69,18 +68,11 @@ The Tweet Generator utilizes a multi-stage pipeline to produce tweets that refle
 
 ---
 
-## Tutorial: How to Extract Tweets Using Tweepy
+## References
+- **FAISS:** Facebook AI Similarity Search, enabling efficient vector-based semantic search.
+- **HyDe (Hypothetical Document Embeddings):** Improves retrieval accuracy by enriching queries with hypothetical examples [(Gao et al., 2022)](https://arxiv.org/pdf/2212.10496).
+- **OpenAI Embeddings:** `text-embedding-3-large` for high-quality contextual representation.
 
-Follow these steps to extract tweets from a user using the Tweepy library:
+---
 
-### 1. **Install Tweepy**
-Install Tweepy using pip:
-```bash
-pip install tweepy
-```
-
-### 
-2. Set Up a Twitter Developer Account
-- Sign up at the [Twitter Developer Platform](https://developer.x.com/en).
-- Create a new project and generate your API keys and access tokens.
-
+This README provides a structured breakdown of the Tweet Generator's technical architecture and features, making it accessible for developers and users alike. Let me know if you'd like further adjustments or additions!
