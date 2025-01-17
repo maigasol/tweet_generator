@@ -63,9 +63,11 @@ tweets = fetch_all_tweets(username)
 username = "realDonaldTrump"
 tweets = fetch_all_tweets(username)
 save_path = "tweets.jsonl"
+
 with open(save_path, "w", encoding="utf-8") as file:
     for tweet in tweets:
         json_tweet = tweet._json  # Convert Tweepy Status object to JSON
         file.write(json.dumps(json_tweet) + "\n")
+
 print(f"Tweets saved to {filename}")
 ```
